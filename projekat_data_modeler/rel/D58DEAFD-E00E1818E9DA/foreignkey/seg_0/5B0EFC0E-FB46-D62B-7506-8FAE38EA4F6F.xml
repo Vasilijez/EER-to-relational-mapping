@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B0EFC0E-FB46-D62B-7506-8FAE38EA4F6F" containerWithKeyObject="27FBF6A3-8190-265C-047D-57520A6BE366" localFKIndex="3F69C378-6C03-B944-6AEC-7746647F4F3A" name="Stanica_Mesto_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>F5119CED-9D87-20AA-69C4-17BE1ECA9A6F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>24F70BD6-B787-25CD-DA58-FEA4169A4FBB</importedID>
+<referredTableLongName>Mesto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DD47524-F108-2B7E-08A0-1770ADDF1A25</referredTableID>
+<keyObject>8DAC6620-B38A-9545-79F8-C341BD2D75F7</keyObject>
+<referredKeyID>8DAC6620-B38A-9545-79F8-C341BD2D75F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazmst</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

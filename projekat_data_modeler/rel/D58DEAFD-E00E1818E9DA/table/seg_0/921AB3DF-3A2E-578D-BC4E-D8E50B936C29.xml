@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="921AB3DF-3A2E-578D-BC4E-D8E50B936C29" name="Ima">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>27E3654D-EC9F-ED8E-2F75-512FC13BD2CF</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>BEE24122-9561-8562-38C9-FAB402769497</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="brmestakl" id="B817911F-78F7-A1C9-383D-565377C2556F">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>81A7EC88-5297-A878-9D02-1B4062D045E3</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>937FB38A-54FF-C20E-AA8C-DDC4C910994D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idv" id="FCC9912E-8CB6-0E12-D64D-D961262DD7F8">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>8797A27A-D903-3729-8F6C-9BA4CA5C67B0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>6A1BCE49-8549-8BCE-6A42-8ABE3CFCC455</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="954301CA-598D-AEE0-B1E9-D36251934B83" referredColumn="8083C852-91C1-A4E7-5EE8-0F8FA889603D"/>
+</associations>
+</Column>
+<Column name="idkl" id="B47A375B-0126-6F29-A096-250341C99A44">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>32E0BD78-B179-44C5-3553-93984A0075E2</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>98902957-A991-B6BD-EE04-71B82527660F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD2E4D66-4B2F-E03B-B9D5-89725E7966BF" referredColumn="154ECE2A-849B-18E0-9DCF-65D060F96A65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24862412-1A91-371A-C7ED-7E0F35C6F852" name="Ima_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>99C1CC03-2425-F538-F865-355B9A795165</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>A6E2152E-B2A3-5390-C84A-0B91FA06D61E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC9912E-8CB6-0E12-D64D-D961262DD7F8"/>
+<colUsage columnID="B47A375B-0126-6F29-A096-250341C99A44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F48A7437-1AA3-D061-A102-DCCBE1543074" name="Ima_Klasa_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B9456EDA-A22C-4138-3C0E-C64BE7F75C6F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B47A375B-0126-6F29-A096-250341C99A44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C4D33F4-CB52-351E-7AA5-7F39D8D87A0E" name="Ima_Voz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B33DA787-E17E-1045-5DAB-35197124DA31</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC9912E-8CB6-0E12-D64D-D961262DD7F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FA5E2B0-6F42-0573-2C54-23041B62748E" name="Radi_u">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>5E1673CE-D330-D68C-FCAA-B17542FCFA8E</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mbk" id="B063922A-710F-282C-F9EC-73E1D2D56CB3">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>DBF64F50-EAD9-4A95-42EF-693F7736AE6A</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>E26271A5-AB16-8C02-8ABC-FA76EAB0925D</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<referedAttribute>AEE31A33-78E7-41E7-CCC8-44268E511C7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idv" id="417A4065-52F4-83F1-BDE8-C9999BF0D131">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>3BE33E31-21FB-B3B4-C08A-5DE88E7879E0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>85F0A8B1-9B30-E269-0DD1-D105BED22284</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<referedAttribute>8ECBEA72-A67E-7020-82D1-AF9A10BA61B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFCFCAAB-0121-43C7-BF0E-8AC888362010" name="Radi_u PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>1B073834-F028-49EF-9DDB-A986CB73EFA6</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B063922A-710F-282C-F9EC-73E1D2D56CB3</attributeRef>
+<attributeRef>417A4065-52F4-83F1-BDE8-C9999BF0D131</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

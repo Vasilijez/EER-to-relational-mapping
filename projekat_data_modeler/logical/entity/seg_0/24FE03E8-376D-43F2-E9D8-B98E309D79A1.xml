@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24FE03E8-376D-43F2-E9D8-B98E309D79A1" name="Stanica">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>7DD5E579-AD07-31DA-7086-0E862E91243C</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idst" id="940DD23D-E359-DA46-F04F-E110F761EC1E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>E5B2AA16-1217-6091-D367-2D27CF774CCC</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazst" id="EC015CC5-4C1F-C108-4C50-5F252A6E8E1D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>84901969-0DD8-5F54-98FE-C0AD7A55BFBF</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brkolos" id="3A4589E6-B287-2EFF-8AFE-5D7E7C2A7E0D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>096FCB57-9665-0CC0-894E-CBE767F658EB</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gsirs" id="2586E6A4-43C7-A508-3CF7-662EB1F4DD28">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D173AD72-425D-E0E9-EEEB-CCBC8099A04E</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gduzs" id="8B86088E-831A-039E-FC4B-A88504B3F96C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>37FF95EE-DB31-13B1-169E-D853E70DEA94</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazmst" id="D74EA4C9-5EA1-CE7C-A57D-D2A2A84BEDEB">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>F5119CED-9D87-20AA-69C4-17BE1ECA9A6F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>DD3F9497-2922-FC4E-695E-2363BF794990</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<referedAttribute>75F12AA4-6500-9628-9DEE-DDA96B3E8833</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1ED4AF22-6036-9197-E0E6-96EF19962A65" name="Stanica PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F736A1C9-465E-98A9-8BFF-669D2AE15262</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>940DD23D-E359-DA46-F04F-E110F761EC1E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FCDAD6F7-8C8D-5062-DC92-8A51A16D1D23" name="gsirduzs_UK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>14EC1D03-3AB2-86DD-46C7-5C157B346061</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>2586E6A4-43C7-A508-3CF7-662EB1F4DD28</attributeRef>
+<attributeRef>8B86088E-831A-039E-FC4B-A88504B3F96C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D51C46D-BBEC-0D26-4E84-12A28AB9B0F7" name="Putnik">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>187DEB20-3C5B-FB56-9F90-21C6CB1D1914</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>7E290F20-7EF1-F506-6BC8-CE2BE0F60A0A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idp" id="D9DF1B37-281E-9E4F-8A58-0FDE3D848E44">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>DB52AF0B-2C70-35F9-9DBD-4D78817E653D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>70898564-FA48-91B3-2712-53B27525C6DD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imep" id="464E0828-46F6-9495-E843-6FEA745E855D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CEAF2957-D5C3-7828-F117-AFA4AEAC8EB1</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>3A2310B8-8494-6D8E-3F7A-2384573827FB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="przp" id="2B275E93-1F96-713A-635E-987BAB1D7095">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>4D0037DC-A49B-06DE-F209-B7D0D4ECA32A</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>4C3991CF-AAFC-2CE0-01C5-4C73AC7FEABE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="polp" id="3ED2A7D0-961E-230C-16D6-E05744C3706D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>7570B19E-5A12-ABCA-D081-ECF86D011D77</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>45690BD6-E154-A6B6-D843-4A674B0BDBDC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9EF4150-E41B-2934-5186-5888F79C3B90</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumrp" id="2F7CFF96-E374-4F67-039F-3C2EF746CE9B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>D38E265E-5F53-9DEA-6595-8D2AEEBAEAA7</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>3DB7EFB3-3AF9-BF99-18D4-15F46A72327A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailp" id="82270E23-5178-31F9-1FBF-C17E0108FFE8">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>EFF0B121-E5A1-2758-99F3-994C2FC594AC</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>71ACC149-55C0-6E67-BCD7-483DDD390588</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazkatp" id="2992C7A4-B176-E081-240A-4B440FF7FA91">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>67A0FD63-076E-A2EA-C9ED-7F90CBE3C930</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F1C39F3B-FE60-781F-A69B-2DD3566EBC1D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>906E08F1-F14E-51C0-7728-BA51BF20F369</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F8DBD2B-46FA-3133-FBDB-CC56A2E5261F" referredColumn="115BC6B4-FF0E-AD55-FD26-D68BE667CE6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26A4BE0E-FC01-55AC-0950-F1EFBA34A4E1" name="Putnik_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CFF5AA2F-AA05-755A-A612-CD1E75B2FA12</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>93A53171-E575-7FA5-375F-6DEB42B05849</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DF1B37-281E-9E4F-8A58-0FDE3D848E44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC81BD75-8A0B-9995-911C-25D9E3F650C8" name="Putnik_emailp_UN">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>C5589E9E-CECF-40B4-27D4-54A4E3E3133E</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B0F04E84-3409-76B3-BE1B-99F960A292E9</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82270E23-5178-31F9-1FBF-C17E0108FFE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41D0906C-71DD-6146-093F-ECD191F34E06" name="Putnik_Kategorija_putnika_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B60389B1-C91D-E5B1-E614-7B9DC04D19A8</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2992C7A4-B176-E081-240A-4B440FF7FA91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

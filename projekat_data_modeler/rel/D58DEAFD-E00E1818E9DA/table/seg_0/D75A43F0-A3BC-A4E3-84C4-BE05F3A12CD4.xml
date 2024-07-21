@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D75A43F0-A3BC-A4E3-84C4-BE05F3A12CD4" name="Bankovni_racun">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>50DD1002-5BB5-F86B-FF06-CEFD1A8CF03F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>346623DD-456B-1519-735E-86A8ED73C812</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="brtkr" id="63B548F6-EAA8-2FE6-97E2-D34D6DF695A5">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>23AD2714-8817-CC36-08C2-823F5B82D9E9</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>2AAE6476-E8A1-9377-E439-B251E8AAF57A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolsredstava" id="0342C6C0-59CD-02C3-9E62-24BEA1B617EA">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>9E277B0C-D811-A6B4-C5EE-1895480AEF95</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>E28A7A7E-305F-C149-1729-72F4D3B18536</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valutar" id="B9FD2323-A9D6-DFF1-88FA-A3DB8C23F0AB">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>FCCE47D4-F0A2-5878-4B50-A98D0904DEF4</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>393C4EE3-47E0-D572-3DD7-DDBB2662FE6F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>445AAEA5-E91B-A64D-D640-7314322E41D3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrstar" id="899909CB-A40E-B93E-FBAD-2C8BF95E3147">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>E4EAAA9B-98CF-2DD7-0B2C-9088E85E0D67</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B66E95ED-4D68-FF74-6DF7-C516EC499E3D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1091E01A-BF5F-4DC9-8664-57E656E0E18D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idp" id="C29F5E08-E0FF-3BDD-AB4E-9A328A568021">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>78F0B48C-E634-30A8-CF84-C8FFEF01BECF</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>194C9B01-A8A7-D761-5822-4E3B8F8739FC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49F3B2C0-E05B-69F5-A94A-72811B070A49" referredColumn="D9DF1B37-281E-9E4F-8A58-0FDE3D848E44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3113E077-916D-2C68-1426-00E136E596BC" name="Bankovni_racun_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>0B4E6E92-4C76-AF47-BAB9-E913F3CC0E4B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>A2EBDD02-8812-5F41-9746-35385022F20D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B548F6-EAA8-2FE6-97E2-D34D6DF695A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F09B58A-685A-1C3F-B333-BFDFFB575A69" name="Bankovni_racun_Putnik_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>904DA461-3F20-05B6-9AB9-C534F1759D5F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C29F5E08-E0FF-3BDD-AB4E-9A328A568021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B912AF13-F22C-5A7F-4271-82781D8FCC15" containerWithKeyObject="75332846-D053-9EBC-0BF4-28D9F02D6A4A" localFKIndex="09EB7F9D-608C-BD0E-7C77-B218C973C411" name="Obucen_Voz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>43AE8AD3-42CE-4F45-03A6-94F2E8105598</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>88CDC70B-7FFE-81CF-B254-17481FA4CA89</importedID>
+<referredTableLongName>Voz</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D30625C-E358-8253-2EF7-39F59D95FCA2</referredTableID>
+<keyObject>72B1006D-8030-EE6A-B5A2-420480D2B353</keyObject>
+<referredKeyID>72B1006D-8030-EE6A-B5A2-420480D2B353</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

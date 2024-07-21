@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0B1E8D7-BBFD-A9AF-9CE8-18CBF41D4779" name="Klasa">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>A607AD9F-BA68-0191-7328-7B6DE279E216</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D0BB2923-1C5C-0CD6-4C6E-75CD71418368</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkl" id="154ECE2A-849B-18E0-9DCF-65D060F96A65">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>0D399B08-D948-595B-BAC2-7A67AC43F9FF</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>199C56DD-F74F-4A8C-00A8-B9D3E9CB7C34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazkl" id="AADF2BD1-2E3A-8FD5-85BC-53B6ACF7AE1E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>5C9BEA9A-00C7-DA6C-39EE-D5A0E40B19C8</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F6A98636-9F60-4110-05EF-FB65E0E91239</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB3BD6FF-718A-7528-52EF-4A19FAFD224C" name="Klasa_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>9E4D36E1-F154-345A-6619-66093D7B0E2B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>1798D4E5-0B62-635E-2E9E-21F247581FE7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="154ECE2A-849B-18E0-9DCF-65D060F96A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

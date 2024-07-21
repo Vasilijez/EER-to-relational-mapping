@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7058854-4AA4-1328-3F4C-1329B1DE6EED" name="Poseduje">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F79D0688-89D6-85CE-B3E5-1B61C11606D4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idprv" id="06EA982B-F1DF-73A5-E60E-7E4D6529BEFD">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>2EA86E27-A4E5-DDE8-B14F-ABC47D129B3F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="082CADC7-2CA9-8092-9D42-D411B05DA1E5" referredColumn="5A6A2FA5-B182-1007-D015-9BE8495D8791"/>
+</associations>
+</Column>
+<Column name="idrt" id="6791DAF2-746D-259C-D569-977E780F094E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>DC58FB8A-028C-49D0-AEF7-7ABCBFC37528</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AC2F459-9043-8D46-AF8A-6985E475A4C8" referredColumn="BD1B07EC-3C72-3D95-86A5-5CC3632C33E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1019AB9A-18B6-4028-CE42-1BDC8E304840" name="Poseduje_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F8C28035-4080-523A-D3E2-E4F511E3575E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06EA982B-F1DF-73A5-E60E-7E4D6529BEFD"/>
+<colUsage columnID="6791DAF2-746D-259C-D569-977E780F094E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CACCFA5D-0A5A-AC43-CC88-DA3CEBF27AC4" name="Poseduje_Prevoz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>BACE42B3-C1F4-4C3B-B832-EA47E6B244DA</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06EA982B-F1DF-73A5-E60E-7E4D6529BEFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EECE08DC-D912-E8E1-EB67-15C542AE8027" name="Poseduje_Ruta_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>BACE42B3-C1F4-4C3B-B832-EA47E6B244DA</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6791DAF2-746D-259C-D569-977E780F094E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

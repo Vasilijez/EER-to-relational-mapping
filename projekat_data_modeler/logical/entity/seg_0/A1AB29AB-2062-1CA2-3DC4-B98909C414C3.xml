@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1AB29AB-2062-1CA2-3DC4-B98909C414C3" name="Mesto">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>767D42D5-81A7-814C-E4C6-BBCED817F9E6</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazmst" id="75F12AA4-6500-9628-9DEE-DDA96B3E8833">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>13AB902C-E625-71B2-D333-33B554ADC28D</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opstinam" id="C63092C0-6925-DEED-A5E7-4C411B600B16">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>147AC366-AD0A-BDE2-E9C5-2002914B3748</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pkodm" id="301F83AA-74FD-CA9D-9C77-07A9A4F37AD8">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>C89F9E71-3166-A681-F29A-5D112956F833</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gsirm" id="2F474FF1-3FAB-290E-B9AD-96E98292A35A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>7381EB66-A8F4-EF08-7037-2E34FF8E2926</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gduzm" id="EADD2900-18A7-10FC-FAE2-AD4620153AB5">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>7C375FD1-9FF8-CCA5-FEB8-A5D4BB17E672</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7A2928A-68ED-8AA4-401A-8DFE93283068" name="Mesto PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>E436243C-0358-B637-6B20-7630991BEE98</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75F12AA4-6500-9628-9DEE-DDA96B3E8833</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="ED565E35-4373-1C81-2C63-003CD48BE20A" name="gsirduzm_UK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>813D38BE-21F6-FC26-2EC6-2E92842CB0FD</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>2F474FF1-3FAB-290E-B9AD-96E98292A35A</attributeRef>
+<attributeRef>EADD2900-18A7-10FC-FAE2-AD4620153AB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

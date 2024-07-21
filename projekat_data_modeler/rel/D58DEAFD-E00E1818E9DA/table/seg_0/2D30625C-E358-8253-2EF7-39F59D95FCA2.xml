@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D30625C-E358-8253-2EF7-39F59D95FCA2" name="Voz">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>28F0043F-4E0D-5837-0730-1B646789CAA8</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>C6820832-4A78-DB07-A786-BDD9897B6DAB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idv" id="8083C852-91C1-A4E7-5EE8-0F8FA889603D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>8ECBEA72-A67E-7020-82D1-AF9A10BA61B0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>8C93BE55-105C-BC3D-6118-F759BBDFCBE2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukbrmestav" id="B7EDCD9E-E77D-292C-4812-C84D9BC0D3C9">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>F29193BE-29AE-CC18-7D60-1BE198D25E08</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>3D446911-264D-A419-CA2F-99C49591CD3A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazv" id="1556925D-78D5-502D-0EEF-5033DA3CCC91">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>D71C1FA7-E1A6-F038-14A9-B89D18BA4365</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>955FE111-E7D1-6BE8-C4CD-81109E367FAC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maksbrzv" id="7852F496-951A-B2EA-EAA4-2966EDA8F773">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CE335618-7CEC-0C4C-2CB4-83B7D771160D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>1BEE7331-DB35-5FB7-16EC-B7FECA836AE3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72B1006D-8030-EE6A-B5A2-420480D2B353" name="Voz_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>FEA755F7-2D91-1648-600F-252FB80A7BF3</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>048855D5-6371-D9A2-1BA0-796E411D4212</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8083C852-91C1-A4E7-5EE8-0F8FA889603D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

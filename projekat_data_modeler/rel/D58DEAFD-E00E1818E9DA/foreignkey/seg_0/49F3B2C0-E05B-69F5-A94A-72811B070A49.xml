@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49F3B2C0-E05B-69F5-A94A-72811B070A49" containerWithKeyObject="D75A43F0-A3BC-A4E3-84C4-BE05F3A12CD4" localFKIndex="1F09B58A-685A-1C3F-B333-BFDFFB575A69" name="Bankovni_racun_Putnik_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>904DA461-3F20-05B6-9AB9-C534F1759D5F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>255915FF-85D6-C978-98CE-772E9B50AE50</importedID>
+<referredTableLongName>Putnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D51C46D-BBEC-0D26-4E84-12A28AB9B0F7</referredTableID>
+<keyObject>26A4BE0E-FC01-55AC-0950-F1EFBA34A4E1</keyObject>
+<referredKeyID>26A4BE0E-FC01-55AC-0950-F1EFBA34A4E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

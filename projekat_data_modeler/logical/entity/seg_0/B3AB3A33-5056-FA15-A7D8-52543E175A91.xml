@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3AB3A33-5056-FA15-A7D8-52543E175A91" name="Obucen">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>FF07C8A0-8190-B7A3-4105-4B9A61CCF518</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idv" id="E768A574-02D5-D738-41D6-4FD635DE7787">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>43AE8AD3-42CE-4F45-03A6-94F2E8105598</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>299DFC83-C478-68AC-CAB1-814D4E444E20</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<referedAttribute>8ECBEA72-A67E-7020-82D1-AF9A10BA61B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbm" id="1C00E625-9E7D-99AB-3DF1-DF319E3EB443">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>222EEDF1-E5D7-E80A-7C4D-25C6F1729675</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>34566BE6-D77A-A51A-DC64-D5123812FE49</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<referedAttribute>AEE31A33-78E7-41E7-CCC8-44268E511C7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EBE7266C-35D2-15AE-EB2A-3DC0C779721F" name="Obucen PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>04EDBD1C-089D-8898-94A0-AC64FBB05542</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E768A574-02D5-D738-41D6-4FD635DE7787</attributeRef>
+<attributeRef>1C00E625-9E7D-99AB-3DF1-DF319E3EB443</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

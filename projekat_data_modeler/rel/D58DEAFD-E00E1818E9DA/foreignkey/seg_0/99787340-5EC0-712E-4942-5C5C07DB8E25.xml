@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99787340-5EC0-712E-4942-5C5C07DB8E25" containerWithKeyObject="ED3F00AA-B049-234D-3344-883187EA8737" localFKIndex="90E143FF-5835-FC42-C640-F9038FD23B2E" name="Radi_u_Voz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>3BE33E31-21FB-B3B4-C08A-5DE88E7879E0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>68994AB8-9E26-0833-A067-0CB04C6989F2</importedID>
+<referredTableLongName>Voz</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D30625C-E358-8253-2EF7-39F59D95FCA2</referredTableID>
+<keyObject>72B1006D-8030-EE6A-B5A2-420480D2B353</keyObject>
+<referredKeyID>72B1006D-8030-EE6A-B5A2-420480D2B353</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24E4D2FA-4E10-72B2-819D-28A67C555BC3" containerWithKeyObject="EB9C7610-B0EB-2545-68B4-4ED2CBE7B73D" localFKIndex="053BC9DE-58C2-590C-B46C-DE8E91C69BD9" name="Karta_Radi_u_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CD61E703-BAAE-BAEF-8B1A-CF8702E49D7C</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D8BF4D9E-AA27-C13D-0228-418EFA822A83</importedID>
+<referredTableLongName>Radi_u</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED3F00AA-B049-234D-3344-883187EA8737</referredTableID>
+<keyObject>6DFB4246-7A18-2421-B2DE-382F72865BE0</keyObject>
+<referredKeyID>6DFB4246-7A18-2421-B2DE-382F72865BE0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>mbk,idv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

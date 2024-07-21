@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75332846-D053-9EBC-0BF4-28D9F02D6A4A" name="Obucen">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B3AB3A33-5056-FA15-A7D8-52543E175A91</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B0F34B5C-7F7B-A14C-F383-0B9887D314EE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idv" id="C5214CAC-2288-3735-99B5-C4FC8EC1EFE3">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>E768A574-02D5-D738-41D6-4FD635DE7787</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>A24877B3-EA37-776E-5D8F-43AC4FDF3ADE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B912AF13-F22C-5A7F-4271-82781D8FCC15" referredColumn="8083C852-91C1-A4E7-5EE8-0F8FA889603D"/>
+</associations>
+</Column>
+<Column name="mbm" id="C3541080-D849-0DA7-0524-68E67CC216F5">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>1C00E625-9E7D-99AB-3DF1-DF319E3EB443</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D00C6E60-0DAD-482A-5D23-006150E81F98</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0CDD8A0-6412-720F-C8C7-CE5EE1310295" referredColumn="C0B39A7F-5289-CEB4-FCEF-E1BF44CDBF7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B768EBF-5D7E-DD3C-4100-DE4BC5D31160" name="Obucen_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>EBE7266C-35D2-15AE-EB2A-3DC0C779721F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>7AEFCA93-E381-CD67-B73F-87B5B73B8FE0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5214CAC-2288-3735-99B5-C4FC8EC1EFE3"/>
+<colUsage columnID="C3541080-D849-0DA7-0524-68E67CC216F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC97C9CA-9023-F67E-AFE0-D1CDCBC0E108" name="Obucen_Masinovodja_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>222EEDF1-E5D7-E80A-7C4D-25C6F1729675</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3541080-D849-0DA7-0524-68E67CC216F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09EB7F9D-608C-BD0E-7C77-B218C973C411" name="Obucen_Voz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>43AE8AD3-42CE-4F45-03A6-94F2E8105598</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5214CAC-2288-3735-99B5-C4FC8EC1EFE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

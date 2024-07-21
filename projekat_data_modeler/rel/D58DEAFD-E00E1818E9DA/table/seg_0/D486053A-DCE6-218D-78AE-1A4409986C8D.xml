@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D486053A-DCE6-218D-78AE-1A4409986C8D" name="Transakcija">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>67AC4813-67CE-1A64-56DB-02E65942FE87</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>AA4BEBE9-9682-89BB-8368-3578313F04A7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idtr" id="738E63DC-64D4-4CD0-AC87-C7A7BBF36F38">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B7290681-BC16-CA95-7F3E-C6E482D7264E</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>3C3415D0-DF6A-EC8E-D86B-828112FF4FD3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumtr" id="2F6C245D-136D-79D6-B98F-6DE608BE497D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CA16E36A-34E9-38BB-1ADC-7C7EDC99731F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>9E09B981-41DE-88B4-CD0C-FF19606FCE93</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vremetr" id="714C8F97-0F50-EC32-6EF8-5222CC9E2669">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>95304639-70B5-28D3-A185-AF772A6DE8E8</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>36CDC049-6AB3-D5EE-92E4-1EBF727E7D3B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznostr" id="BAE1C37F-E99E-C968-F225-B2ECC48E1016">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>AAC32B70-82B4-4ED5-2DF4-47CCC5CF1B05</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B13B5CBF-3B5F-DA52-90DE-8C881B80C498</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brtkr" id="B0D0647F-35E2-82E7-605B-E53D651201F0">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>05389061-03A8-C8AF-DA5E-53EE6B8E1B92</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>CF0E54C5-838B-AD92-8F35-91E59AD190A2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="410DD4F0-5878-032A-8329-89E8525EE399" referredColumn="63B548F6-EAA8-2FE6-97E2-D34D6DF695A5"/>
+</associations>
+</Column>
+<Column name="idk" id="36769D7E-6176-1BAE-5105-E8950935576E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>36ED123F-9DA5-E2DB-20E5-ADD35D2F1671</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>A6819393-7118-E52A-EDD3-4E177D8C4FBC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2565C35E-2E7D-3C97-50AF-9191D99A5124" referredColumn="473F4EF4-4995-CF26-E7E2-935D5580D046"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F4DFECC-E6F0-A218-4759-FA00BD004069" name="Transakcija_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>89615DF9-5984-083B-7081-1A04DCEF8DC5</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>40A5936B-5CCA-2A98-5B34-7F91A79A5005</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="738E63DC-64D4-4CD0-AC87-C7A7BBF36F38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED604E3E-BD39-0B29-59C5-B9C8A526BE3E" name="Transakcija_idk_UN">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>73786C26-6B29-3105-1E39-D7D09B403409</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>9E83FD83-BCAA-6A22-6E19-EFD78AAB5F0D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36769D7E-6176-1BAE-5105-E8950935576E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD99EA24-FB3A-BC27-140C-E1E8621C26F1" name="Transakcija_Bankovni_racun_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>5C8C98F0-E8C4-10DE-9DB0-3F1F5E5A1533</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D0647F-35E2-82E7-605B-E53D651201F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88A3891E-21E5-4534-F542-987E04EF3104" name="Transakcija_Karta_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>70964297-3C10-5FD2-CC7D-0961CDB923E6</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36769D7E-6176-1BAE-5105-E8950935576E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

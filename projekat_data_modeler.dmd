@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projekat_data_modeler" id="DA2A03A2-7A17-6FA0-243E-DC5D4718262D" version="3.5">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 09:59:28 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DA2A03A2-7A17-6FA0-243E-DC5D4718262D</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="869E6F35-5E8D-C0E2-C094-B339B3188B84">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\data_modeler_files\latest\projekat</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E8E95B71-D853-ACA0-5BFB-12278EF527ED">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\Za slanje\Definitivno\projekat_data_modeler</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="945BF010-7608-6013-B952-EB253735D779">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\Za slanje\Definitivno\projekat_data_modeler</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="23B6716E-F1D7-7FD5-3D52-9BAEA91FABF0">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\Za slanje\Definitivno\projekat_data_modeler</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E150EBF6-5B5A-9510-041A-41DBE7FEEEBD">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\Za slanje\Definitivno\projekat_data_modeler</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F0EDA52F-A478-73A6-8DA4-DFE32256D074">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\Za slanje\Definitivno\projekat_data_modeler</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3D6BFA9E-9D99-8CDF-9BFF-3372C4ED3C8A">
+<designStoragePath>C:\Users\Vasilije\Desktop\Fakultet\Cetvrta godina\7. semestar\Baze podataka 2\Projekat\Za slanje\Definitivno\finalno\projekat_data_modeler</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

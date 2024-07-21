@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9816067-C21C-8BA3-C6EA-597DECCAB25E" containerWithKeyObject="EB9C7610-B0EB-2545-68B4-4ED2CBE7B73D" localFKIndex="0CCF4192-5E56-B4A8-883D-EDF75D32B274" name="Karta_Stanica_FKv2">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>78BC22DF-4FEA-78B9-89F9-0EAFEEBEFB2B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>5ACF8062-D309-BB4B-9E80-FD9CFC22D172</importedID>
+<referredTableLongName>Stanica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27FBF6A3-8190-265C-047D-57520A6BE366</referredTableID>
+<keyObject>501A796D-690D-E8ED-5117-585600C4F570</keyObject>
+<referredKeyID>501A796D-690D-E8ED-5117-585600C4F570</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idst</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95A5E02F-DB5F-D1EE-D9C7-F2019F05A477" name="Masinovodja">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>5076DE8A-8F37-64AF-37E3-1F317AB229B1</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>DA950726-3C04-8D23-2E6E-D91C9A79CE49</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbz" id="C0B39A7F-5289-CEB4-FCEF-E1BF44CDBF7D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>AEE31A33-78E7-41E7-CCC8-44268E511C7B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>2F0F6323-B6E7-3CE7-61A6-752F3C748BA5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1043CA8E-4843-E0D8-4096-CDCD44669700" referredColumn="EC39C3C3-A28B-E12C-93A6-31012F9825C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2076C2A8-505B-02BB-DD3A-E313A2F5E594" name="Masinovodja_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>20372DA7-FE90-0960-1A4F-3700DEECF518</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>209AA6AF-E635-63EE-30BE-7BCDC3A5005C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B39A7F-5289-CEB4-FCEF-E1BF44CDBF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47C35E4E-4B28-708F-3563-C4101B0D69C5" name="Masinovodja_Zaposleni_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>DE8DE767-DEF8-8B26-C8F5-06EE849B81AF</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B39A7F-5289-CEB4-FCEF-E1BF44CDBF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

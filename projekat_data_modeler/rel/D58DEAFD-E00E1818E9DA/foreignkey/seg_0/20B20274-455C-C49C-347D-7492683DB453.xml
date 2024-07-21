@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20B20274-455C-C49C-347D-7492683DB453" containerWithKeyObject="97B68E76-0E61-57CB-D803-75F1B363DFBF" localFKIndex="D6DA6D5F-6A93-9452-F722-13AFA146C9C0" name="Upravljanja_vozom_Obucen_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>1F717A50-4DE2-8CDD-65E1-3AA4E649CFBE</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>0A46F9AA-2493-8572-CC70-3B1D6DEC560B</importedID>
+<referredTableLongName>Obucen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75332846-D053-9EBC-0BF4-28D9F02D6A4A</referredTableID>
+<keyObject>6B768EBF-5D7E-DD3C-4100-DE4BC5D31160</keyObject>
+<referredKeyID>6B768EBF-5D7E-DD3C-4100-DE4BC5D31160</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idv,mbm</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

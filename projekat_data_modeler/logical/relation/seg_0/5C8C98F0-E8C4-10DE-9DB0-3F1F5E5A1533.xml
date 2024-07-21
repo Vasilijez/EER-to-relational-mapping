@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Se_vrsi_nad" directorySegmentName="seg_0" id="5C8C98F0-E8C4-10DE-9DB0-3F1F5E5A1533">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>66EB01E9-5670-D868-CA0F-D6EFD5A21D73</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<sourcePk>0B4E6E92-4C76-AF47-BAB9-E913F3CC0E4B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50DD1002-5BB5-F86B-FF06-CEFD1A8CF03F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67AC4813-67CE-1A64-56DB-02E65942FE87</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

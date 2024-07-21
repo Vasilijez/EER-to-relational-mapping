@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Obavljav2" directorySegmentName="seg_0" id="70964297-3C10-5FD2-CC7D-0961CDB923E6">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>8737B6CD-EA37-E3B2-F845-2C1CF841F3B8</importedID>
+<engineerTo>
+<item key="D58DEAFD-9B43-F06C-F3DA-E00E1818E9DA" value="true"/>
+</engineerTo>
+<sourcePk>89615DF9-5984-083B-7081-1A04DCEF8DC5</sourcePk>
+<targetPk>A28818BC-6C0E-2E9E-24D4-36886CA4E2CA</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>67AC4813-67CE-1A64-56DB-02E65942FE87</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A9B68203-DF43-F9A2-EEC7-FC8433E00C90</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

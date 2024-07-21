@@ -1,0 +1,295 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB9C7610-B0EB-2545-68B4-4ED2CBE7B73D" name="Karta">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>A9B68203-DF43-F9A2-EEC7-FC8433E00C90</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>9A12DF7F-EC3E-615B-C947-E0F895B3B620</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idk" id="473F4EF4-4995-CF26-E7E2-935D5580D046">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>90E14B33-9B42-3982-121E-DC7CE7DF029F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>4FBD294D-2971-9915-5C14-C559405CBDA7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenakt" id="B080EB1C-B946-13CE-58B9-946BA998E089">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>EDAAF4CE-BCA5-73BB-D9E6-7096DB96D389</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>540D0C82-58CC-1124-8BE4-DAB2B0ED189B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumpkt" id="36694790-0565-EA53-0BD4-63328CF32C53">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>AAC76216-0799-4989-EFB4-58AF25F56494</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>4284E98A-C845-B925-2539-62957B304B55</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumdkt" id="81428185-BADA-C98A-8F21-1DA4B2905819">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>8D110F6E-B242-49B5-0375-4215F2AD3636</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>10EF9CA4-797C-9CF7-1046-2108183A07B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vremepkt" id="83B919CE-5F4A-CFB2-DB5A-38938DD7D666">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>9369170D-AC78-8ED4-EE55-2DC7DB42FFE9</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F9B89E0D-9F8C-60DA-35B8-C8C89FC61AE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vremedkt" id="986CCA1A-B89C-DCBC-0FD6-39E9D1FBA95C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>530EABA3-C92B-BF89-BA83-77E0935D25BD</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>9EFB8847-21E3-A02F-CC87-D3F8D4D01AFD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otkazanakt" id="4A932684-F26B-5E63-6CB9-FA61F936F32C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>7B3CFAE6-1720-DD59-E5BC-17A27F0AD42F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>E2AB02F5-01E2-E12C-74C7-E2B09F655D67</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE9AA3A5-7E1B-F88C-13E0-E6F7D094D3DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idpr" id="69FF995B-4FF1-B4EB-A2FE-A2C06AE3C86D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>8B12288D-0938-99AC-EE83-8E19D18C9A77</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>8FCFD09E-237D-5AD5-4CF9-2701BA03CA7A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB70925F-2860-3CA1-1173-BE220B4F1BBB" referredColumn="D9DF1B37-281E-9E4F-8A58-0FDE3D848E44"/>
+</associations>
+</Column>
+<Column name="idprv" id="15E3E215-F739-73E0-8EDF-88A774C8AA18">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>1E7EC053-A401-F3A1-0399-70D72B424B56</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>34CB2AF4-9B09-2380-0905-0021F2AB1EAA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9831C343-F74E-0CF3-01DC-FBC780C4CDD5" referredColumn="5A6A2FA5-B182-1007-D015-9BE8495D8791"/>
+</associations>
+</Column>
+<Column name="idpst" id="F226A83A-8981-E560-18E9-1B3C1695FDF9">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>86DE2A1F-0D58-C53E-BCF3-DED31B822A9B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>5B9489A3-C370-A5CE-37F5-4FD1619B632F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="742E9646-9590-8CE8-850E-EAE6E5044D01" referredColumn="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</associations>
+</Column>
+<Column name="iddst" id="D1D4AC52-F8E2-2BF4-384C-5048D51211E6">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>5BFC99EB-750F-9FFF-A04C-5FDE2A4CB05C</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>BDB65FCA-C924-3CF1-1AE3-B78C312EEA88</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9816067-C21C-8BA3-C6EA-597DECCAB25E" referredColumn="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</associations>
+</Column>
+<Column name="mbk" id="823DF537-57F4-F4AB-6CBE-5ED0D3064655">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>0D7AB38B-8FFC-241A-89A8-6C84A2F8B843</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>EB596EB8-03A3-94B4-28B3-7EADA70D98E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24E4D2FA-4E10-72B2-819D-28A67C555BC3" referredColumn="295C646B-58BC-E2CF-8CD7-B8F0C873B6FB"/>
+</associations>
+</Column>
+<Column name="idv" id="C5757418-3F54-CC8C-B685-95B0D3F9E83D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CF4701C2-8124-5A20-817C-F0AAC1A7BE7D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>58F2714A-869B-88B0-A29E-6100C8252789</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24E4D2FA-4E10-72B2-819D-28A67C555BC3" referredColumn="0B431459-0B23-D734-E198-20FDFC374E5C"/>
+<colAssociation fkAssociation="34B94593-0493-CD8F-4133-609C413B5584" referredColumn="FCC9912E-8CB6-0E12-D64D-D961262DD7F8"/>
+</associations>
+</Column>
+<Column name="idkl" id="C0F8DF10-9627-C6F4-2D73-286D75C0DB51">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CF274784-695C-D004-1394-91503CCF6134</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>9C00B995-5A4B-61D1-0E4F-702AB11B0D00</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34B94593-0493-CD8F-4133-609C413B5584" referredColumn="B47A375B-0126-6F29-A096-250341C99A44"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B940E9F6-4CAA-4B66-F7C9-B20FD28F5A5C" name="Karta_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>A28818BC-6C0E-2E9E-24D4-36886CA4E2CA</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B15AEC8A-33BD-63B3-1981-F366B493709E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="473F4EF4-4995-CF26-E7E2-935D5580D046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="658F8C49-3D54-C1FD-4D01-5B43AD7EBD60" name="Karta_Stanica_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>37C56597-D466-CB70-9EE4-4730C038CD62</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F226A83A-8981-E560-18E9-1B3C1695FDF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48F72A79-D2D7-BC08-2563-8C71B70CD7D0" name="Karta_Prevoz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>088F8F8E-43E3-39C2-9060-7D92B7E1166C</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15E3E215-F739-73E0-8EDF-88A774C8AA18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CCF4192-5E56-B4A8-883D-EDF75D32B274" name="Karta_Stanica_FKv2">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>78BC22DF-4FEA-78B9-89F9-0EAFEEBEFB2B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D4AC52-F8E2-2BF4-384C-5048D51211E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="053BC9DE-58C2-590C-B46C-DE8E91C69BD9" name="Karta_Radi_u_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CD61E703-BAAE-BAEF-8B1A-CF8702E49D7C</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="823DF537-57F4-F4AB-6CBE-5ED0D3064655"/>
+<colUsage columnID="C5757418-3F54-CC8C-B685-95B0D3F9E83D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ED26479-6CAE-A9F3-2BF3-E2A23C2BE4A5" name="Karta_Ima_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>CE024FCE-FBB8-7AE5-75E7-0B8E6D755639</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5757418-3F54-CC8C-B685-95B0D3F9E83D"/>
+<colUsage columnID="C0F8DF10-9627-C6F4-2D73-286D75C0DB51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="618249A4-2DCC-91E1-CFF3-015E34F17D2E" name="Karta_Putnik_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>6F1D2975-377E-1E15-AC2E-2BCC19273AC0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69FF995B-4FF1-B4EB-A2FE-A2C06AE3C86D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

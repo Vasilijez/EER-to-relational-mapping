@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97B68E76-0E61-57CB-D803-75F1B363DFBF" name="Upravljanja_vozom">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B13D3822-6E4C-98E6-FF6C-71DF78E9A280</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>0D62DDD1-CF3D-A855-0C4E-BC2FFA5C4E4F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="redbrupr" id="FA9AC682-EEE9-5954-1CC6-E9C0F31AABA3">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>EC8F7B6D-C93B-C016-FB9F-6EFF466D7176</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>4DDFCB81-1E43-7296-8186-A9912B2CCEED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumpupr" id="24C2AA76-C8F1-87FF-7CCE-AD1313B3774C">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>FD0B472C-BD6F-1095-F009-0C988CCF9A66</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>2F42CA70-6697-371E-9D31-34A21A8FE7A6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumzupr" id="1C9CEBF4-EB2E-32B6-7642-690011FD8190">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>725B87A0-DA48-95E2-7BCA-E05B39906B53</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>0EA7D242-11A4-FB1A-C78E-92407B33A545</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idv" id="91A54426-9B2F-6122-F1B9-D20B67B9983B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>BCDA3648-435A-B49A-0DB2-5B0EB68A8FB0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>AA5999FC-BEA7-EF1C-8568-ECC59A595305</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20B20274-455C-C49C-347D-7492683DB453" referredColumn="C5214CAC-2288-3735-99B5-C4FC8EC1EFE3"/>
+</associations>
+</Column>
+<Column name="mbm" id="63A2A549-9F09-6E8E-D5BF-65C1AB4FD186">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>6EB06613-6C26-460F-A74B-07E1FE180326</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>E0E2B364-6C36-9242-C24C-BD083D489A19</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20B20274-455C-C49C-347D-7492683DB453" referredColumn="C3541080-D849-0DA7-0524-68E67CC216F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D66814-128E-A383-4AAD-572F0FA9214C" name="Upravljanja_vozom_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>BC708ED2-FFA0-3BF3-C386-AFBFFADB2760</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>93034DC4-EA72-D387-D831-102D2914094C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA9AC682-EEE9-5954-1CC6-E9C0F31AABA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6DA6D5F-6A93-9452-F722-13AFA146C9C0" name="Upravljanja_vozom_Obucen_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>1F717A50-4DE2-8CDD-65E1-3AA4E649CFBE</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91A54426-9B2F-6122-F1B9-D20B67B9983B"/>
+<colUsage columnID="63A2A549-9F09-6E8E-D5BF-65C1AB4FD186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

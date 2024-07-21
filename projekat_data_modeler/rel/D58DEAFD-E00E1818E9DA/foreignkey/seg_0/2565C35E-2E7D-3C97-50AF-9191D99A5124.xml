@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2565C35E-2E7D-3C97-50AF-9191D99A5124" containerWithKeyObject="D486053A-DCE6-218D-78AE-1A4409986C8D" localFKIndex="88A3891E-21E5-4534-F542-987E04EF3104" name="Transakcija_Karta_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>70964297-3C10-5FD2-CC7D-0961CDB923E6</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F98375DF-222B-0B2E-CA7B-ED06C796F475</importedID>
+<referredTableLongName>Karta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB9C7610-B0EB-2545-68B4-4ED2CBE7B73D</referredTableID>
+<keyObject>B940E9F6-4CAA-4B66-F7C9-B20FD28F5A5C</keyObject>
+<referredKeyID>B940E9F6-4CAA-4B66-F7C9-B20FD28F5A5C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idk</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

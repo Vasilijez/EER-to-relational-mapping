@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B98FC30-05FA-89B9-49CD-BA8EE79D8871" name="Kontrolor">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>5F2B619A-32C1-4DF9-5AEB-5A91796AEDBF</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>AA668E3B-0690-6F07-0F79-A81B1F717BEB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbz" id="FACC6B71-3091-5C5C-8B7D-CE0BA19B7D22">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>AEE31A33-78E7-41E7-CCC8-44268E511C7B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>CA3010B0-303D-F205-4289-64335CAC2E6F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D8A6B5B-B155-6274-F783-BB457C4F46BF" referredColumn="EC39C3C3-A28B-E12C-93A6-31012F9825C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CF50014-FF48-BE87-3BF7-955A9E10A8C1" name="Kontrolor_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>20372DA7-FE90-0960-1A4F-3700DEECF518</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>8CFB7D04-C341-224C-F0F3-D071C1ACAC98</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FACC6B71-3091-5C5C-8B7D-CE0BA19B7D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61EFECAA-EFB0-EE4E-82A7-A237129DCFFA" name="Kontrolor_Zaposleni_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>E2CD0835-5F4E-0032-0C8D-D1CFBB08916C</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FACC6B71-3091-5C5C-8B7D-CE0BA19B7D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

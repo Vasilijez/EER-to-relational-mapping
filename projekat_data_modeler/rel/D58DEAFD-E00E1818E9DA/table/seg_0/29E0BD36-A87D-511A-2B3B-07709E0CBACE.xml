@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29E0BD36-A87D-511A-2B3B-07709E0CBACE" name="Prevoz">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>94BDF9BF-8B46-411D-C969-CE9B6352CAD0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>5346D1C6-399D-F554-BD10-CA66FEEB4105</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idprv" id="5A6A2FA5-B182-1007-D015-9BE8495D8791">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>1E46C192-1947-5325-5E11-12C9F1835CA6</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>CF352D6B-1C22-28D3-7001-CDCF45B28CFC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vremepprv" id="5DC7B240-41A6-C0F6-AB21-E2CF506CD5AD">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>BC25E765-44D1-CBA4-EC96-C0078E13F93B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D455A9D6-4DF0-2FDF-4175-837376D91402</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vremedprv" id="060EDA69-EB8F-8B97-1A87-0237E06F8F14">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>349863ED-3224-8E31-C74D-26F0C94BA877</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>69D894BE-5CF3-6E1F-4BF3-BAE5D86E20E2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idv" id="6F5AF34A-9706-9E63-E666-C80D767B8478">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>13162DBB-C42E-B509-41ED-BB27E5DDD1AE</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B490E48D-2519-E32D-E8A1-35CCEF15D634</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1D24C88-9B4E-62E6-66D8-2D9021528557" referredColumn="8083C852-91C1-A4E7-5EE8-0F8FA889603D"/>
+</associations>
+</Column>
+<Column name="idpst" id="C9D09827-DF3F-597E-9BFF-4F6B22CA8E07">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>45992A43-B894-DA82-4B47-04014F88D53E</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>AA5FC493-9A36-C1B6-CFED-D6BBCBC15F0E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F4F81EB-2497-A2AA-B86D-49C665FB1D41" referredColumn="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</associations>
+</Column>
+<Column name="iddst" id="1AA5C2A3-5A5D-D35F-28B8-6D8FFA5F059E">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>0A15796B-7FC6-B7C4-7431-9B905C9025C0</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>733E055B-C604-2486-E3FD-ACA2855600A3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3773E81-D118-3C59-7119-4E4E49F893F6" referredColumn="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4B2D345-8BA3-15AD-A49E-55DD77AD4C8B" name="Prevoz_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>F9E9D93C-ED26-193E-D0FA-93FB4145E857</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>560CD983-425B-9018-DF27-6583AAAF5A69</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A6A2FA5-B182-1007-D015-9BE8495D8791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6DCCD89-0738-D3CE-A468-BA46B9565DE3" name="Prevoz_Stanica_FKv2">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>55F6DEDE-1B5A-759B-9474-90E08201D7CD</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9D09827-DF3F-597E-9BFF-4F6B22CA8E07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E3FC1B-B7C6-0BDA-E7A5-02FECD1AFFC4" name="Prevoz_Stanica_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>A850451E-69C7-F011-A10C-74D243CA15AF</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA5C2A3-5A5D-D35F-28B8-6D8FFA5F059E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98E37B7A-137E-7D56-84F3-6D349F87F620" name="Prevoz_Voz_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>6B580BDB-4222-F22F-36A5-6BB9BDB511D5</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F5AF34A-9706-9E63-E666-C80D767B8478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

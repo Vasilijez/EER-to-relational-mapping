@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27FBF6A3-8190-265C-047D-57520A6BE366" name="Stanica">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>24FE03E8-376D-43F2-E9D8-B98E309D79A1</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>86FE5A66-C518-F5C4-14B7-07824067F6BC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idst" id="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>940DD23D-E359-DA46-F04F-E110F761EC1E</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D254EA52-84C1-6A55-E4B4-674FFBD40276</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazst" id="FECB8DB7-87AC-C408-4B41-E1866C61F59A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>EC015CC5-4C1F-C108-4C50-5F252A6E8E1D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>1DCB3254-F94F-3EBA-BF69-ABFFBF918C1A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brkolos" id="EB83FFB7-64C2-BC95-B058-C4179A02F429">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>3A4589E6-B287-2EFF-8AFE-5D7E7C2A7E0D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>D587E8E3-5D77-70E8-B183-CFA94C11E988</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gsirs" id="FC9265E2-EE06-4973-0EFD-76D01959FC8A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>2586E6A4-43C7-A508-3CF7-662EB1F4DD28</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>C4A267B3-8DE6-3659-71ED-6AD15B747224</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gduzs" id="F1ABFED2-040D-8D5B-1483-F0E56E89B2FF">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>8B86088E-831A-039E-FC4B-A88504B3F96C</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>042E843A-0C4F-EC03-43AC-A681A31F8E53</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazmst" id="17CFE2A1-2B2F-D0B6-0B7A-A0E74BCF715A">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>D74EA4C9-5EA1-CE7C-A57D-D2A2A84BEDEB</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>4FC911C8-D5C6-00A1-4574-73A07FDD1321</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B0EFC0E-FB46-D62B-7506-8FAE38EA4F6F" referredColumn="015F99D2-B709-A885-43F3-075E0907922C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="501A796D-690D-E8ED-5117-585600C4F570" name="Stanica_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>1ED4AF22-6036-9197-E0E6-96EF19962A65</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>B182A001-4A62-C230-85BF-6306C04964FF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E2CB5A9-0937-5FE7-69DB-7F28D4C40273" name="Stanica_gsirs_gduzs_UN">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>FCDAD6F7-8C8D-5062-DC92-8A51A16D1D23</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>DA4C7CE8-A174-BB11-BFF7-BBEAA66E1F51</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC9265E2-EE06-4973-0EFD-76D01959FC8A"/>
+<colUsage columnID="F1ABFED2-040D-8D5B-1483-F0E56E89B2FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F69C378-6C03-B944-6AEC-7746647F4F3A" name="Stanica_Mesto_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>F5119CED-9D87-20AA-69C4-17BE1ECA9A6F</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CFE2A1-2B2F-D0B6-0B7A-A0E74BCF715A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

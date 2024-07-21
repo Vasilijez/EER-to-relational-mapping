@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B97A84EA-7FB9-AEB6-136E-7C36D8BC40BA" name="Ruta">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>905FC513-279D-FF28-A477-C9824559069D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>F81C7639-A9B1-6961-66C8-C46720A7E316</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idrt" id="BD1B07EC-3C72-3D95-86A5-5CC3632C33E8">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>A3E4A977-BDA3-23E7-3CAF-6FACFB0F5386</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>DDDC65BF-E1D0-EB17-CF86-0B82FA8C1576</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukrastrt" id="108A70CF-6EED-74C8-A6F3-9477596F2B09">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>D4FD4FBB-08E4-14E8-F79D-BB3ACDE4670A</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>87F6C2CD-5085-C58A-E3A5-98DB4DAD385D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brstrt" id="8F0BAD05-4637-98A6-38F5-A0B890F5C03D">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>7FB3DDD0-F95C-4CA7-41FA-CE7FF075AB97</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>469FD3BF-7663-4EBA-8B02-A3E350F2BFBA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0A04F3A-DBF3-FD84-09EE-03D0DA011697" name="Ruta_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>BE090822-F0D2-8561-5769-C505E9E4251B</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>00A0C8AA-63A1-C5E8-24AC-EFAD298D19E4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD1B07EC-3C72-3D95-86A5-5CC3632C33E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

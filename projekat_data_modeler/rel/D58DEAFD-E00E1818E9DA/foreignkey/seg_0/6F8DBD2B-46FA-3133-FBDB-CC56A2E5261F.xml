@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F8DBD2B-46FA-3133-FBDB-CC56A2E5261F" containerWithKeyObject="5D51C46D-BBEC-0D26-4E84-12A28AB9B0F7" localFKIndex="41D0906C-71DD-6146-093F-ECD191F34E06" name="Putnik_Kategorija_putnika_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B60389B1-C91D-E5B1-E614-7B9DC04D19A8</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>6CB62B67-401B-EE15-ADE0-896A262B3A71</importedID>
+<referredTableLongName>Kategorija_putnika</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>369E7493-10F2-B96F-0564-1C61C5B46168</referredTableID>
+<keyObject>05DB61F0-8CBF-BC31-C9B8-27706328178C</keyObject>
+<referredKeyID>05DB61F0-8CBF-BC31-C9B8-27706328178C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazkatp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

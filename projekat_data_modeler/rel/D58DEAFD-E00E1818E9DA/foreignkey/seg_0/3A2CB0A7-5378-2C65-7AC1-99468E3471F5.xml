@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A2CB0A7-5378-2C65-7AC1-99468E3471F5" containerWithKeyObject="ED3F00AA-B049-234D-3344-883187EA8737" localFKIndex="4331485A-E97C-366E-CCD4-D8B4154B806F" name="Radi_u_Kontrolor_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>DBF64F50-EAD9-4A95-42EF-693F7736AE6A</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>BF4D964B-59ED-4C92-3F9C-591F0CCA8BA8</importedID>
+<referredTableLongName>Kontrolor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B98FC30-05FA-89B9-49CD-BA8EE79D8871</referredTableID>
+<keyObject>2CF50014-FF48-BE87-3BF7-955A9E10A8C1</keyObject>
+<referredKeyID>2CF50014-FF48-BE87-3BF7-955A9E10A8C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mbz</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

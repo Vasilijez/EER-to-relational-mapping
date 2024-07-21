@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EDCBF64-3BE4-6998-7E4A-5FEBC480D9C2" name="Se_pristize">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>C1204AE1-D20C-9664-3D9A-EC9EE9B0AADB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idpst" id="D224FC84-F225-683A-67B0-52CC2ECE50D2">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>A655AF91-945D-A556-BC50-4EF29A6AB4F9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FBEA270-1D29-BA25-6A46-CF644601A4BD" referredColumn="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</associations>
+</Column>
+<Column name="idost" id="64F2ED87-E752-E392-C927-7C1B8E2A543B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>64731295-25AC-1134-14AF-4187BCC13B46</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FF38DA4-1B85-7846-6D1D-CEDCB5CDD04C" referredColumn="5F6ADCBB-E14E-1FA2-D382-8C26EFDADE93"/>
+</associations>
+</Column>
+<Column name="trput" id="0A808A03-9388-6743-E496-E81B070E276B">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>ABAD6F44-28BA-79C0-BB46-6BCB8858DB5D</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>0F619DEB-259E-F6E9-D43D-90D107A6185A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0020E6F-1B62-E2EA-0793-978FAE4D94DB" name="Se_pristize_PK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<importedID>99B301A7-C18F-2B2B-2905-BC720CB33ECA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D224FC84-F225-683A-67B0-52CC2ECE50D2"/>
+<colUsage columnID="64F2ED87-E752-E392-C927-7C1B8E2A543B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFB09647-23C0-9F1E-4225-498E935DA0B0" name="Se_pristize_Stanica_FKv1">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B0E603ED-50CD-D681-91AA-E1F57C314843</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F2ED87-E752-E392-C927-7C1B8E2A543B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78B579FB-9ADC-4C00-7B8A-ECC8C8090542" name="Se_pristize_Stanica_FK">
+<createdBy>Vasilije</createdBy>
+<createdTime>2024-01-15 10:08:08 UTC</createdTime>
+<generatorID>B0E603ED-50CD-D681-91AA-E1F57C314843</generatorID>
+<ownerDesignName>projekat_data_modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D224FC84-F225-683A-67B0-52CC2ECE50D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
